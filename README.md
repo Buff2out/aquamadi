@@ -27,3 +27,12 @@ aquamadi/
 │   ├── auth/           # JWT, middleware
 │   └── error.rs        # Кастомные ошибки
 ```
+
+```
+[dependencies]
+axum = "0.7"
+tokio = { version = "1.0", features = ["full"] }
+sqlx = { version = "0.7", features = ["postgres", "runtime-tokio"] }
+tracing = "0.1"
+serde = { version = "1.0", features = ["derive"] }
+```
