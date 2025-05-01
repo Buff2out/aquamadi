@@ -4,9 +4,9 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-axum = "0.7"
-tokio = { version = "1.0", features = ["full"] }
-sqlx = { version = "0.7", features = ["postgres", "runtime-tokio"] }
+axum = "0.8"
+tokio = { version = "1.44", features = ["full"] }
+sqlx = { version = "0.8", features = ["postgres", "runtime-tokio"] }
 tracing = "0.1"
 serde = { version = "1.0", features = ["derive"] }
 tracing-subscriber = "0.3"
